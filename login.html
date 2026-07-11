@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Login</title>
-</head>
-<body>
-  <h1>Login Page</h1>
-
-  <form>
-    <input type="text" placeholder="Phone Number" required><br><br>
-    <input type="password" placeholder="PIN" required><br><br>
-    <button type="submit">Login</button>
-  </form>
-</body>
-</html>
+<form action="/login" method="POST">
+  <input name="phone" type="text" placeholder="Phone Number" required>
+  <input name="pin" type="password" placeholder="PIN" required>
+  <button type="submit">Login</button>
+</form>
